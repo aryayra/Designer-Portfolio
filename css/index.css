@@ -1,0 +1,81 @@
+
+h1{
+  font-size: 100px;
+  font-family:'Bodoni72';
+}
+.inner{
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.banner{
+  width: 60%;
+  height: 650px;
+  margin-top: 15px;
+  background: black;
+  /* background-image: url('../img/6.PNG');
+  background-size: 100% 100%; */
+}
+.banner img{
+  width: 100%;
+  height: 70%;
+}
+.hbox{
+  color: white;
+  padding-left: 16%;
+}
+.cont{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 30px;
+}
+.cont img:nth-of-type(1){
+  width: 40%;
+  height: 100%;
+}
+.cont img:nth-of-type(2){
+  width: 60%;
+  height: 100%;
+}
+h3{
+  font-family:'Bodoni72';
+  margin: 40px 0px 40px 0px;
+}
+p{
+  font-family:'Bodoni72';
+  line-height: 25px;
+}
+.img{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img1{
+  width: 57%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img1 img:nth-of-type(1){
+  width:50%;
+  height: 900px;
+}
+.img1 img:nth-of-type(2){
+  width: 45%;
+  height: 500px;
+}
+.img2{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.iimg2_2{
+  width: 100%;
+  height:300px;
+}
+.img2_1{
+  width: 100%;
+  height: 300px;
+}

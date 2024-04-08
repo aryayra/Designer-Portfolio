@@ -1,0 +1,84 @@
+body{
+  background-color: #668aff;
+ 
+}
+.log{
+  width: 30%;
+  height: 450px;
+  border-radius: 20px;
+  background: white;
+  border: 2px solid black;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  margin-left: 35%;
+  margin-top: 100px;
+}
+h1{
+  font-family:'Bodoni72';
+  text-align: center;
+}
+.inner{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.inner input {
+  border-radius: 20px;
+  height: 35px;
+  margin-top: 30px;
+  font-family:'Bodoni72';
+}
+.inner p{
+  text-align: right;
+  margin-top: 25px;
+  font-family:'Bodoni72';
+}
+.btn{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family:'Bodoni72';
+}
+button{
+  width: 80%;
+ 
+  height:40px;
+  color: white;
+  background: #668aff;
+  border: 0px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 35px;
+  font-family:'Bodoni72';
+}
+.pbx{
+  text-align: center;
+  margin-top: 35px;
+  font-family:'Bodoni72';
+}
+.pbx span{
+  font-weight: bold;
+  font-family:'Bodoni72';
+}
+
+::-webkit-input-placeholder {
+  color: #000000;
+  font-weight: bold;
+  font-family:'Bodoni72';
+}
+:-moz-placeholder {
+  color: #000000;
+  font-weight: bold;
+  font-family:'Bodoni72';
+}
+::-moz-placeholder {
+  color: #000000;
+  font-weight: bold;
+  font-family:'Bodoni72';
+}
+:-ms-input-placeholder {
+  color: #000000;
+  font-weight: bold;
+  font-family:'Bodoni72';
+}

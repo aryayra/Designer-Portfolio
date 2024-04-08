@@ -1,0 +1,103 @@
+h1{
+  color: gray;
+  font-family:'Bodoni72';
+}
+.box{
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  height: 800px;
+  font-family:'Bodoni72';
+}
+.left{
+  width:25%;
+  height:100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family:'Bodoni72';
+ text-align: center;
+  background: black;
+}
+
+.left img{
+  width: 80%;
+  height: 400px;
+}
+.right{
+  width: 75%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family:'Bodoni72';
+}
+.imgs{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.imgs img {
+  width: 160px;
+  height: 250px;
+}
+.item1{
+  width: 100%;
+  font-family:'Bodoni72';
+  display: flex;
+  justify-content: space-between;
+}
+.img1{
+ width: 400px;
+}
+.item2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.item2 img:nth-of-type(1){
+  width: 320px;
+  height: 320px;
+}
+.item2 img:nth-of-type(2){
+  width: 320px;
+  height: 320px;
+}
+.text{
+  padding:0px 20px 20px 20px;
+  box-sizing: border-box;
+  font-family:'Bodoni72';
+}
+.text p{
+  font-size: 14px;
+  font-family:'Bodoni72';
+  text-align: justify;
+}
+.item3{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body{
+  width: 50%;
+  display: flex;
+  font-family:'Bodoni72';
+  justify-content: space-between;
+  align-items: center;
+}
+.body img{
+  width: 30%;
+}
+.ings{
+  width: 50%;
+  display: flex;
+  font-family:'Bodoni72';
+  align-items: center;
+}
+.ings img{
+  width: 50%;
+}

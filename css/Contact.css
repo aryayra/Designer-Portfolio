@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(102, 138, 255);
+ 
+}
+.box{
+  width: 300px;
+  margin: 0 auto;
+ padding: 30px 25px;
+ box-sizing: border-box;
+  background: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:15%;
+  font-family:'Bodoni72';
+}
+.box:hover{
+  cursor: pointer;
+}
+#p2 p{
+  margin-top: 15px;
+  font-family:'Bodoni72';
+}
+.box p{
+  font-family:'Bodoni72';
+}

@@ -1,0 +1,87 @@
+h1{
+  color: gray;
+}
+.box{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.left img{
+  width: 70%;
+  height: 550px;
+}
+.right{
+  width: 65%;
+  padding: 30px;
+  box-sizing: border-box;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  color: rgb(189, 189, 189);
+  position: relative;
+  font-family:'Bodoni72';
+}
+.imgx{
+  width: 400px;
+}
+.right h6{
+  color: white;
+  line-height: 25px;
+  font-family:'Bodoni72';
+}
+.right p{
+  display: inline-block;
+  width: 300px;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 20px;
+  font-family:'Bodoni72';
+}
+.img2{
+  width:250px;
+  margin-left: 80px;
+}
+.item1{
+  display: flex;
+  flex-direction: column;
+}
+.innerbox{
+  width: 100%;
+  display: flex;
+  font-family:'Bodoni72';
+}
+.img0{
+  width: 350px;
+  height: 350px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family:'Bodoni72';
+}
+.list{
+  width:250px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30px;
+  font-family:'Bodoni72';
+  top:50px
+}
+.list img{
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+}
+h1{
+  color: gray;
+  margin-left: 60px;
+  font-family:'Bodoni72';
+}

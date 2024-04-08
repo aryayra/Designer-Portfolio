@@ -1,0 +1,169 @@
+
+.text{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  line-height: 80px;
+  padding: 0px 20px;
+  margin-top: 30px;
+  font-family:'Bodoni72';
+}
+.box1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.item1{
+  width: 30%;
+  text-align: justify;
+  line-height: 25px;
+}
+.item2{
+  width: 30%;
+  margin: 0 auto;
+}
+.item2 img{
+  width: 80%;
+}
+.item3{
+  width: 25%;
+  height: 400px;
+  background: black;
+  position: relative;
+}
+.item3 img{
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: -30px;
+  top:25px
+}
+.pox{
+  width:60%;
+  font-size: 14px;
+  margin-left: 33%;
+  margin-top: 40px;
+  font-family:'Bodoni72';
+}
+.box2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.list1{
+  width: 25%;
+}
+.list1 img{
+  width: 100%;
+}
+.list2{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.list2 img{
+  width: 100%;
+}
+.list3{
+  width: 40%;
+  line-height: 30px;
+}
+.list3 p {
+  margin-top: 15px;
+  font-family:'Bodoni72';
+}
+.texts{
+  width: 100%;
+  margin-top:50px;
+}
+.texts p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-family:'Bodoni72';
+}
+.imgq{
+  width: 100%;
+  margin-top: 50px;
+}
+.imgq img{
+  width: 300px;
+  margin-left: 20%;
+}
+.imgs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family:'Bodoni72';
+}
+.imgitem{
+  width: 400px;
+  height: 300px;
+  background: black;
+  position: relative;
+}
+.imgs img {
+  width: 300px;
+}
+.imgitem img{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top:-20px;
+  left:20px
+}
+.text2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family:'Bodoni72';
+}
+.text2 div{
+  width: 80%;
+  font-size: 14px;
+  text-align: justify;
+  font-family:'Bodoni72';
+}
+.text2 img{
+  width:150px
+}
+.text3{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family:'Bodoni72';
+}
+.text3 img {
+  width: 45%;
+}
+.mix{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family:'Bodoni72';
+}
+.mixleft{
+  width: 65%;
+}
+.mixright{
+  width: 30%;
+}
+.mixleft p{
+  background: yellow;
+  text-align: justify;
+  padding: 50px 30px;
+  box-sizing: border-box;
+  font-family:'Bodoni72';
+}
+.mixleft img{
+  width: 100%;
+  margin-top:50px;
+}
+.mixright img {
+  width: 100%;
+}
